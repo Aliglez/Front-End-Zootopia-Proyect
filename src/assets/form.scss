@@ -18,10 +18,22 @@ margin-top: 10%;
     }
 }
 }
+
+.form-group {
+    padding: 3%;
+}
+
+.form-control {
+    font-size: 2rem;
+    @media only screen and (max-width: 600px) {
+        font-size: 1.5em;
+    }
+}
+
 .login {
     background-color: $bg-green, 0.5;
     color: white;
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     padding: 2%;
     align-items: center;

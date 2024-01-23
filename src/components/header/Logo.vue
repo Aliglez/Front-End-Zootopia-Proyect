@@ -1,6 +1,6 @@
 <template>
     <div class="text-img-logo">
-        <a class="navbar-brand" href="#">Zootopia</a>
+        <a class="navbar-brand">Zootopia</a>
         <img class= "img-logo" width="90" height="90" src="../../assets/img/icons8-cat-footprint-96 (1).png" alt="cat-footprint"/>
     </div>
 </template>

@@ -7,15 +7,13 @@ import Footer from "./components/footer/Footer.vue";
 <template >
   <header >
     <Navbar v-if="$route.name !== 'Inicio'"/>
-
-    <div class="wrapper">
+  </header>
+  <div class="wrapper">
       <nav>
     <router-view/>
   
       </nav>
     </div>
-  </header>
-  
   <Footer v-if="$route.name !== 'Inicio'"/>
 </template>
 
